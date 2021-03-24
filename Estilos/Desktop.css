@@ -83,10 +83,31 @@ video{
     display: flex;
     align-items: center;
     overflow: hidden;
+    position: relative;
 
 }
-.storie{
+.caixa-stories ion-icon{
+    position: absolute;
+    right: 8px;
+    top: 45px;
+    width: 30px;
+    height: 30px;
+    color: rgb(249, 249, 249);
+    
+
+}
+.story{
+    height: 86px;
+    width: 66px;
     margin-right: 15px;
+    text-align: center;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.story-img{
+    
     min-width: 66px;
     height: 66px;
     background-image: url("stories_background.jpg");
@@ -96,8 +117,8 @@ video{
     align-items: center;
     justify-content: center;
 }
-.storie:first-child{
-    margin-left: 20px;
+.story:first-child{
+    margin-left: 15px;
 }
 
 .post{
