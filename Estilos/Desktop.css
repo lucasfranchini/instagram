@@ -98,22 +98,52 @@ body{
     height: 749px;
     background-color: #FFF;
     margin-bottom: 60px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+}
+.post > img {
+    width: 100%;
 }
 .header-post{
     height: 61px;
-    width: 100%;
+    width: calc(100%-36px);
+    margin: 0 18px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     font-size: 14px;
-}
-.header-post img{
-    margin-left: 20px;
 }
 .header-post p{
     font-weight: 500;
     margin-left: 15px;
-    margin-right: 405px;
     width: 109px;
+    
+}
+.esquerda{
+    display: flex;
+    align-items: center;
+}
+.icones-post {
+    font-size: 20px;
+    margin: 10px 18px;
+    display: flex;
+    justify-content: space-between;
+}
+.icones-post ion-icon{
+    margin-right: 18px;
+}
+.icones-post ion-icon:last-child{
+    margin-right: 0px;
+}
+.curtidas{
+    font-size: 14px;
+    margin:0 18px;
+    margin-bottom: 13px;
+    display: flex;
+    align-items: center;
+}
+.curtidas img{
+    margin-right: 5px;
 }
 .sidebar{
     width:293px;
