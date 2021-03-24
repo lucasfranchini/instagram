@@ -1,5 +1,5 @@
 body{
-    background-color: #E5E5E5;
+    background-color: #FAFAFA;
     display: flex;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
@@ -16,6 +16,7 @@ button{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     cursor:pointer;
+    padding: 0;
 }
 .topo{
     width: 100%;
@@ -114,6 +115,7 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 .story-img{
     
@@ -193,7 +195,7 @@ button{
 .perfil{
     width: 100%;
     height: 56px;
-    margin-top: 31px;
+    margin-top: 32px;
     display: flex;
     align-items: center;
     line-height: 16.5px;
