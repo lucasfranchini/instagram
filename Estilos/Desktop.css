@@ -1,0 +1,146 @@
+body{
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+.topo{
+    width: 100%;
+    height: 54px;
+    background-color: #FFF;
+    position: fixed;
+    display: flex;
+    z-index: 1;
+    justify-content: center;
+    border-bottom: 1px solid #dbdbdb;
+}
+.conteudo-topo-desk{
+    width: 1228px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+.conteudo-topo-mob{
+    display: none;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.barra-vertical{
+    width: 1px;
+    height: 22px;
+    background-color: #dbdbdb;
+    margin: 0 10px;
+}
+.pesquisa{
+    width: 215px;
+    height: 28px;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid #DBDBDB;
+    font-family: 'Roboto', sans-serif;
+}
+.icones{
+
+    display: flex;
+    align-items: center;
+}
+
+.icones ion-icon{
+    margin-right: 25px;
+}
+.icones ion-icon:last-child{
+    margin-right: 0px;
+}
+
+.posts{
+    
+    width: 935px;
+    margin-top: 88px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+.caixa-stories{
+    width: 614px;
+    height: 118px;
+    background-color: #FFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+
+}
+.storie{
+    margin-right: 15px;
+    min-width: 66px;
+    height: 66px;
+    background-image: url("stories_background.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.storie:first-child{
+    margin-left: 20px;
+}
+
+.post{
+
+    width: 614px;
+    height: 749px;
+    background-color: #FFF;
+    margin-bottom: 60px;
+}
+.header-post{
+    height: 61px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.header-post img{
+    margin-left: 20px;
+}
+.header-post p{
+    font-weight: 500;
+    margin-left: 15px;
+}
+.header-post ion-icon{
+    justify-self: flex-end;
+}
+.sidebar{
+    width:293px;
+    background-color: blueviolet;
+    height: calc(100vh - 88px);
+    position: sticky;
+    top: 88px;
+}
+
+@media(max-width:935px){
+
+    .sidebar{
+        display: none;
+    }
+    .posts{
+        align-items: center;
+    }
+}
+@media(max-width:614px){
+    .conteudo-topo-desk{
+        display: none;
+    }
+    .conteudo-topo-mob{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 20px;
+    }
+}
