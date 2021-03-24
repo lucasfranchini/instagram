@@ -10,12 +10,12 @@ body{
     background-color: #FFF;
     position: fixed;
     display: flex;
-    z-index: 1;
     justify-content: center;
     border-bottom: 1px solid #dbdbdb;
+    z-index: 1;
 }
 .conteudo-topo-desk{
-    width: 1228px;
+    width: 935px;
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -58,7 +58,7 @@ body{
 
 .posts{
     
-    width: 935px;
+    width: 614px;
     margin-top: 88px;
     display: flex;
     flex-direction: column;
@@ -104,6 +104,7 @@ body{
     width: 100%;
     display: flex;
     align-items: center;
+    font-size: 14px;
 }
 .header-post img{
     margin-left: 20px;
@@ -111,12 +112,12 @@ body{
 .header-post p{
     font-weight: 500;
     margin-left: 15px;
-}
-.header-post ion-icon{
-    justify-self: flex-end;
+    margin-right: 405px;
+    width: 109px;
 }
 .sidebar{
     width:293px;
+    margin-left: 28px;
     background-color: blueviolet;
     height: calc(100vh - 88px);
     position: sticky;
