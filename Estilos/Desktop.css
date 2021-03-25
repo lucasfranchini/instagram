@@ -121,7 +121,7 @@ button{
     
     min-width: 66px;
     height: 66px;
-    background-image: url("../imagens/stories_background.jpg");
+    background-image: url("../imagens/stories_background.png");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -183,6 +183,40 @@ button{
 }
 .curtidas img{
     margin-right: 5px;
+}
+.comentario{
+    margin: 13px 18px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.criar-comentario{
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+    padding: 0 18px;
+    border-top: 1px solid #DBDBDB;
+}
+.criar-comentario input{
+    border: none;
+    outline-width: 0;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 16px;
+    width: 100%;
+
+}
+.criar-comentario .esquerda{
+    width: 100%;
+}
+.criar-comentario button{
+    font-size: 14px;
+    color: #B2DFFC;
+    transition: color 300ms;
+}
+.criar-comentario button:hover{
+    color: #0095F6;
 }
 .sidebar{
     width:293px;
