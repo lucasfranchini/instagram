@@ -4,19 +4,22 @@
     }
     .conteudo-topo-mob{
         width: 100%;
+        padding: 0 18px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         font-size: 20px;
+        box-sizing: border-box;
     }
     .conteudo{
         width: 100%;
+        margin-top: 54px;
     }
     .caixa-stories{
         background-color: #FAFAFA ;
         width: 100%;
         border:none;
-        margin-left: 18px;
+        margin: 0;
     }
     .caixa-stories ion-icon{
         display: none;
