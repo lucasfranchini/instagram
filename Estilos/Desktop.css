@@ -276,6 +276,9 @@ button{
 .sidebar > p:last-child{
     margin-top: 18px;
 }
+.barra-inferior{
+    display: none;
+}
 @media(max-width:935px){
 
     .sidebar{
@@ -283,17 +286,5 @@ button{
     }
     .posts{
         align-items: center;
-    }
-}
-@media(max-width:614px){
-    .conteudo-topo-desk{
-        display: none;
-    }
-    .conteudo-topo-mob{
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 20px;
     }
 }
