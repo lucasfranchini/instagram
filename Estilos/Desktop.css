@@ -67,10 +67,10 @@ button{
     align-items: center;
 }
 
-.icones ion-icon{
+.icones button{
     margin-right: 25px;
 }
-.icones ion-icon:last-child{
+.icones button:last-child{
     margin-right: 0px;
 }
 
@@ -152,6 +152,14 @@ button{
     justify-content: space-between;
     font-size: 14px;
 }
+.header-post img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.header-post a:hover{
+    text-decoration: underline;
+}
 .header-post p{
     font-weight: 500;
     margin-left: 15px;
@@ -168,10 +176,10 @@ button{
     display: flex;
     justify-content: space-between;
 }
-.icones-post ion-icon{
+.icones-post button{
     margin-right: 18px;
 }
-.icones-post ion-icon:last-child{
+.icones-post button:last-child{
     margin-right: 0px;
 }
 .curtidas{
@@ -241,7 +249,7 @@ button{
     height: 56px;
     border-radius: 50%;
 }
-.perfil p:last-child{
+.segunda-linha{
     font-weight: 300;
     color: #c7c7c7;
 }
@@ -277,10 +285,13 @@ button{
     height: 32px;
     margin-right: 11px;
 }
-.sugestao p:last-child{
+.sugestao .segunda-linha{
     font-weight: 400;
     font-size: 12px;
     color: #8E8E8E;
+}
+.sugestao a:hover{
+    text-decoration: underline;
 }
 .sugestao .nome-e-legenda{
     height: 30px;
